@@ -36,7 +36,7 @@ class CardGame:
     return card2
   
 
-
+# whole function indented too far to the right 
 def cards_total(self, cards):
   # variable total not initialised
   total
