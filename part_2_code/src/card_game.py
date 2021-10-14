@@ -5,20 +5,22 @@
 # Correct the errors below that you spotted in task 1.
 
 class CardGame:
+  def __init__(self):
+    self.cards = []
 
 
   def check_for_ace(self, card):
-    if card.value = 1:
+    if card.value == 1:
       return True
-    else
+    else:
       return False
    
 
-  dif highest_card(self, card1 card2):
-  if card1.value > card2.value:
-    return card
-  else:
-    return card2
+  def highest_card(self, card1, card2):
+    if card1.value > card2.value:
+      return card1
+    else:
+      return card2
   
 
 
