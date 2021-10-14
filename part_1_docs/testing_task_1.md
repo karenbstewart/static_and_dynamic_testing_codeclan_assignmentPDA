@@ -38,9 +38,11 @@ class CardGame:
 
 
 def cards_total(self, cards):
+  # variable total not initialised
   total
   for card in cards:
     total += card.value
+  #return statement should be pushed one indent further back 
     return "You have a total of" + total
   
 ```
